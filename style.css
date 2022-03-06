@@ -73,6 +73,135 @@ img {
 }
 
 
+/* #region medium */
+
+@media screen and (max-width:768px) {
+
+  /* #region Commons */
+  body {
+    background-color: rgb(238, 238, 169);
+    font-weight: 500;
+  }
+
+  h1 {
+    margin: 0 0 1rem 0;
+    font-size: 30px;
+   /*  text-align: center; */
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container.grey {
+    height: 550px;
+  }
+
+  div.left, div.right, div.central {
+    width: 100%;
+  }
+  
+  .row {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* #endregion Commons */
+
+  /* #region Lezioni */
+
+  #lezioni {
+    width: 100%;
+    height: 340px;
+  }
+
+  #lezioni .left, #lezioni .right {
+    height: 140px;
+    margin: 0;
+  }
+
+  .row>.left, .row>.central, .row>.right{
+    font-size: 14px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: left;
+  }
+
+ /* #endregion Lezioni */
+
+  /* #region Steps */
+
+ #steps {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 510px;
+ } 
+
+ #steps .row>.left,
+ #steps .row>.central,
+ #steps .row>.right {
+  float: left;
+  width: 100%;
+ }
+
+  /* #endregion Steps */
+
+  /* #region Why */
+  
+  #why {
+    height: 560px;
+    background-color: transparent;
+  }
+
+  #why .row>.first,
+  #why .row>.second {
+    margin-top: 0px;
+    font-size: 14px;
+    height: 170px;
+  }
+
+  #why .row>.third {
+    margin-top: 15px;
+    font-size: 14px;
+    height: 170px;
+  }
+
+  #why hr {
+    border: 1px solid black;
+    width: 98%;
+  }
+
+  #why h1 {
+    margin-bottom: 1rem;
+  }
+
+
+  .first>img,
+  .second>img,
+  .third>img {
+   height: 42px;
+  }
+  
+  /* #endregion Why */
+
+
+}
+
+/* #endregion medium */
+
+
 /* #region small */
 
 @media screen and (max-width:420px) {
@@ -117,23 +246,19 @@ img {
 
   /* #region Lezioni */
 
-  .left, .right {
-    height: 160px;
-    margin: 0 1rem;
+  #lezioni .left, #lezioni .right {
+    height: 150px;
+    margin: 0;
   }
 
   .row>.left, .row>.central, .row>.right{
-    font-size: 13px;
+    font-size: 12px;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: left;
-  }
-
-  .left, .right {
-  margin: 0;
   }
 
  /* #endregion Lezioni */
@@ -164,18 +289,19 @@ img {
   #why .row>.first,
   #why .row>.second {
     margin-top: 0px;
-    font-size: 13px;
+    font-size: 12px;
     height: 170px;
   }
 
   #why .row>.third {
     margin-top: 30px;
-    font-size: 13px;
+    font-size: 12px;
     height: 170px;
   }
 
   #why hr {
     border: 1px solid black;
+    width: 98%;
   }
 
   #why h1 {
@@ -188,13 +314,15 @@ img {
   .third>img {
    height: 42px;
   }
-  
+
   /* #endregion Why */
 
 
 }
 
 /* #endregion small */
+
+
 
 
 
